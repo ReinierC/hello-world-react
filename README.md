@@ -170,3 +170,5 @@ plugins: [HtmlWebpackPluginConfig]
   }
 }
 ```
+20. `yarn start`
+  * Open your browser on http://localhost:8080/. If you check your console you'll see our message _"message from index.js!!"_. The reason to use localhost:8080 is because webpack-dev-server serves all our files on port 8080. Notice webpack-dev-server is run when you execute the start script.
