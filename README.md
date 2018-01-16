@@ -1,3 +1,5 @@
+![RC Logo](http://res.cloudinary.com/madhatter/image/upload/v1515166371/logo-rc_cpamog.png)
+
 # Hello World React
 
 ## My first react app
