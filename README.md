@@ -3,11 +3,13 @@
 ## My first react app
 
 I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
+
 ---
 ### Pre-requisites 
 
 1. `brew update`
 2. `brew install yarn`
+
 ---
 ### Getting Started 
 
@@ -15,6 +17,7 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 4. `cd hello-world-react`
 5. `yarn init`
   * _init will give you a few prompts, just press enter till the end or configure it as you'd like to._
+
 ---
 ### Webpack installation and configuration
 
@@ -40,6 +43,7 @@ module.exports = {
   }  
 }  
 ```
+
 ---
 ### Setting up Babel
 
@@ -54,6 +58,7 @@ module.exports = {
     "presets":["es2015", "react"]
 }
 ```
+
 ---
 ###  Setting up our React Components 
 
@@ -112,6 +117,7 @@ console.log('message from index.js!!')
   </body>
 </html>
 ```
+
 ---
 ### Html-Webpack-Plugin
 
@@ -143,6 +149,7 @@ module: {
 plugins: [HtmlWebpackPluginConfig]
 }
 ```
+
 ---
 ### Getting ready to run it
 
@@ -173,6 +180,7 @@ plugins: [HtmlWebpackPluginConfig]
 ```
 20. `yarn start`
   * Open your browser on http://localhost:8080/. If you check your console you'll see our message _"message from index.js!!"_. The reason to use localhost:8080 is because webpack-dev-server serves all our files on port 8080. Notice webpack-dev-server is run when you execute the start script.
+
 ---
 ### React
 
@@ -227,6 +235,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
    ```
 Make sure you're in the project root folder & open a terminal:
 30. `yarn start`
+
 ---
 #### Yeah, Go React GO!
 
