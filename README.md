@@ -17,7 +17,7 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 const path = require('path');  
 module.exports = {  
   entry: './client/index.js',  
-  output: {  
+..  output: {  
     path: path.resolve('dist'),  
     filename: 'index_bundle.js'  
   },  
