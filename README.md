@@ -112,3 +112,61 @@ console.log('message from index.js!!')
   </body>
 </html>
 ```
+
+### Html-Webpack-Plugin
+
+17. `yarn add html-webpack-plugin`
+18. Add a few configurations to _webpack.config.js_
+```javascript
+/* 
+    ./webpack.config.js
+*/
+const path = require('path');
+
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: './client/index.html',
+  filename: 'index.html',
+  inject: 'body'
+})
+
+module.exports = {
+
+...
+
+module: {
+    loaders: [
+        ...
+    ]
+},
+// add this line
+plugins: [HtmlWebpackPluginConfig]
+}
+```
+### Getting ready to run it
+
+19. Open _package.json_ and add a start script:
+```json
+/*
+    ./package.json
+*/
+{
+  "name": "hello-world-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  // add the scripts key to your package.json
+
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+
+  "dependencies": {
+  ...
+  },
+  "devDependencies": {
+  ...
+  }
+}
+```
