@@ -44,6 +44,5 @@ module.exports = {
 ### Setting up Babel
 
 1. `yarn add babel-loader babel-core babel-preset-es2015 babel-preset-react --dev`
-  * _babel gave me this warning:_
-  > warning babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read babeljs.io/env to update! 
+  * _babel gave me this warning:_> warning babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read babeljs.io/env to update! 
 1. `touch .babelrc`
