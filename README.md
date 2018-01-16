@@ -146,7 +146,7 @@ plugins: [HtmlWebpackPluginConfig]
 ### Getting ready to run it
 
 19. Open _package.json_ and add a start script:
-```
+```javascript
 /*
     ./package.json
 */
