@@ -7,19 +7,19 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 ### Pre-requisites 
 
 1. `brew update`
-1. `brew install yarn`
+2. `brew install yarn`
 
 ### Getting Started 
 
-1. `mkdir hello-world-react`
-1. `cd hello-world-react`
-1. `yarn init`
+3. `mkdir hello-world-react`
+4. `cd hello-world-react`
+5. `yarn init`
   * _init will give you a few prompts, just press enter till the end or configure it as you'd like to._
 
 ### Webpack installation and configuration
 
-1. `yarn add webpack webpack-dev-server path`
-1. `touch webpack.config.js`  
+6. `yarn add webpack webpack-dev-server path`
+7. `touch webpack.config.js`  
   * _then update the configuration file "webpack.config.js":_
 ```javascript
 /*  
@@ -43,9 +43,9 @@ module.exports = {
 
 ### Setting up Babel
 
-1. `yarn add babel-loader babel-core babel-preset-es2015 babel-preset-react --dev`
+8. `yarn add babel-loader babel-core babel-preset-es2015 babel-preset-react --dev`
   * _babel gave me this warning_:  babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read babeljs.io/env to update! 
-2. `touch .babelrc`  
+9. `touch .babelrc`  
 ```javascript
   /* 
     ./.babelrc
@@ -67,11 +67,11 @@ _The file structure should look like this:_
 |-- webpack.config.js  
 |-- yarn.lock  
 ```
-1. `mkdir client`
-1. `cd client`
-1. `touch index.js`
-1. `touch index.html`
-1. `cd ..`
+10. `mkdir client`
+11. `cd client`
+12. `touch index.js`
+13. `touch index.html`
+14. `cd ..`
 
 _Now the file structure looks like this:_
 
@@ -85,7 +85,7 @@ _Now the file structure looks like this:_
 |-- webpack.config.js  
 |-- yarn.lock  
 ```
-1. Open up index.js and add:
+15. Open up index.js and add:
 ```javascript
 /*
     ./client/index.js
