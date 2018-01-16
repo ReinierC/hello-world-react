@@ -5,8 +5,6 @@
 ## My first react app
 #### (in *30* steps)
 
-I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
-
 ---
 ### Pre-requisites 
 
@@ -244,4 +242,6 @@ Make sure you're in the project root folder & open a terminal:
 
 ### Conclusion
 You now have a working React Environment set-up.
-thanks to Joy Warugu [visit her Github acocunt](https://github.com/joykare)
+I used a [walkthrough](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
+by Joy Warugu. All credits are hers for writing the first walkthrough I've found that actually works.
+[visit her Github acocunt](https://github.com/joykare)
