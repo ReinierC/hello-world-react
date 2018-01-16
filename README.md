@@ -1,6 +1,7 @@
 # Hello World React
 
 ## My first react app
+#### (in *30* steps)
 
 I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
 
