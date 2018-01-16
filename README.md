@@ -241,7 +241,11 @@ Make sure you're in the project root folder & open a terminal:
 #### Yeah, Go React GO!
 
 ### Conclusion
-You now have a working React Environment set-up.
+**You now have a working React Environment set-up.**
+
+
 I used a [walkthrough](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
-by Joy Warugu. All credits are hers for writing the first walkthrough I've found that actually works.
+by Joy Warugu.
+
+All credits are hers for writing the first walkthrough I've found that actually works.
 [visit her Github acocunt](https://github.com/joykare)
