@@ -11,7 +11,7 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 >1. `yarn init`
 >1. `yarn add webpack webpack-dev-server path`
 >1. `touch webpack.config.js`  
->   ```javascript
+   ```javascript
 /*  
     ./webpack.config.js  
 */  
