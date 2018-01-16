@@ -57,9 +57,9 @@ module.exports = {
 
 ###  Setting up our React Components 
 
-.
-|-- node_modules
-|-- .babelrc
-|-- package.json
-|-- webpack.config.js
-|-- yarn.lock
+.  
+|-- node_modules  
+|-- .babelrc  
+|-- package.json  
+|-- webpack.config.js  
+|-- yarn.lock  
