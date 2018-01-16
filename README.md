@@ -248,4 +248,4 @@ I used a [walkthrough](https://scotch.io/tutorials/setup-a-react-environment-usi
 by Joy Warugu.
 
 All credits are hers for writing the first walkthrough I've found that actually works.
-[visit her Github acocunt](https://github.com/joykare)
+[visit her Github account](https://github.com/joykare)
