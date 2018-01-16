@@ -57,6 +57,7 @@ module.exports = {
 
 ###  Setting up our React Components 
 
+So far our file structure looks like this:
 >.  
 >|-- node_modules  
 >|-- .babelrc  
