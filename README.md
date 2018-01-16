@@ -85,3 +85,11 @@ _Now the file structure looks like this:_
 |-- webpack.config.js  
 |-- yarn.lock  
 ```
+1. Open up index.js and add:
+```javascript
+/*
+    ./client/index.js
+    which is the webpack entry file
+*/
+console.log('message from index.js!!')
+```
