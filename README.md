@@ -57,10 +57,27 @@ module.exports = {
 
 ###  Setting up our React Components 
 
-So far our file structure looks like this:
+_The file structure should look like this:_
 >.  
 >|-- node_modules  
 >|-- .babelrc  
 >|-- package.json  
 >|-- webpack.config.js  
 >|-- yarn.lock  
+
+1. `mkdir client`
+1. `cd client`
+1. `touch index.js`
+1. `touch index.html`
+1. `cd ..`
+
+_Now the file structure looks like this:_
+
+>.
+>|-- client
+>     |-- index.html
+>     |-- index.js
+>|-- .babelrc
+>|-- package.json
+>|-- webpack.config.js
+>|-- yarn.lock
