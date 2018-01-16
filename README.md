@@ -172,3 +172,63 @@ plugins: [HtmlWebpackPluginConfig]
 ```
 20. `yarn start`
   * Open your browser on http://localhost:8080/. If you check your console you'll see our message _"message from index.js!!"_. The reason to use localhost:8080 is because webpack-dev-server serves all our files on port 8080. Notice webpack-dev-server is run when you execute the start script.
+
+### React
+
+21. `yarn add react react-dom`
+22. In the client folder add a folder named _"components"_ and create the file _"App.jsx"_.
+23. `cd client`
+24. `mkdir components`
+25. `cd components`
+26. `touch App.jsx`
+27. `cd ../..`
+  * Now te file structure looks like this:
+```
+  .
+|-- client
+     |-- components
+         |-- App.jsx
+     |-- index.html
+     |-- index.js
+|-- .babelrc
+|-- package.json
+|-- webpack.config.js
+|-- yarn.lock
+```
+
+28. update the _"App.jsx"_ file
+```javascript
+/*
+    ./client/components/App.jsx
+*/
+import React from 'react';
+
+export default class App extends React.Component {
+  render() {
+    return (
+     <div style={{textAlign: 'center'}}>
+        <h1>Hello World</h1>
+      </div>);
+  }
+}
+```
+29. Now we render our component from our start file, _"index.js"_.  
+   Let's replace the console.log() with:
+   ```javascript
+   /* 
+    ./client/index.js
+*/
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App.jsx';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+   ```
+Make sure you're in the project root folder & open a terminal:
+30. `yarn start`
+
+#### Yeah, Go React GO!
+
+### Conclusion
+You now have a working React Environment set-up.
+thanks to Joy Warugu [visit her Github acocunt](https://github.com/joykare)
