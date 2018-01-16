@@ -6,21 +6,21 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 
 ### Pre-requisites 
 
->1. `brew update`
->1. `brew install yarn`
+1. `brew update`
+1. `brew install yarn`
 
 ### Getting Started 
 
->1. `mkdir hello-world-react`
->1. `cd hello-world-react`
->1. `yarn init`
->  * _init will give you a few prompts, just press enter till the end or configure it as you'd like to._
+1. `mkdir hello-world-react`
+1. `cd hello-world-react`
+1. `yarn init`
+  * _init will give you a few prompts, just press enter till the end or configure it as you'd like to._
 
 ### Webpack installation and configuration
 
->1. `yarn add webpack webpack-dev-server path`
->1. `touch webpack.config.js`  
->  * _then update the configuration file "webpack.config.js":_
+1. `yarn add webpack webpack-dev-server path`
+1. `touch webpack.config.js`  
+  * _then update the configuration file "webpack.config.js":_
 ```javascript
 /*  
     ./webpack.config.js  
