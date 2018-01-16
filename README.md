@@ -20,7 +20,7 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 
 >1. `yarn add webpack webpack-dev-server path`
 >1. `touch webpack.config.js`  
->  * then update the configuration file "webpack.config.js":
+>  * _then update the configuration file "webpack.config.js":_
 ```javascript
 /*  
     ./webpack.config.js  
