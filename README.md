@@ -73,11 +73,13 @@ _The file structure should look like this:_
 
 _Now the file structure looks like this:_
 
->.  
-* |-- client  
-  *      |-- index.html  
-  *      |-- index.js  
-* |-- .babelrc  
-* |-- package.json  
-* |-- webpack.config.js  
->* |-- yarn.lock  
+```
+.  
+|-- client  
+     |-- index.html  
+     |-- index.js  
+|-- .babelrc  
+|-- package.json  
+|-- webpack.config.js  
+|-- yarn.lock  
+```
