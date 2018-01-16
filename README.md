@@ -11,7 +11,7 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 >1. `yarn init`
 >1. `yarn add webpack webpack-dev-server path`
 >1. `touch webpack.config.js`  
->`/*
+>/*
 >    ./webpack.config.js
 >*/
 >const path = require('path');
@@ -27,4 +27,4 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 >      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
 >    ]
 >  }
->}`
+>}
