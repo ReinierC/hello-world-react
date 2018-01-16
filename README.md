@@ -7,3 +7,7 @@ I used a walkthrough by [_Joy Warugu_](https://scotch.io/tutorials/setup-a-react
 `brew update`
 
 `brew install yarn`
+
+> mkdir hello-world-react
+> cd hello-world-react
+> yarn init
