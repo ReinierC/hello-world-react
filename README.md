@@ -51,8 +51,15 @@ module.exports = {
     ./.babelrc
 */  
 {
-    "presets":[
-        "es2015", "react"
-    ]
+    "presets":["es2015", "react"]
 }
 ```
+
+###  Setting up our React Components 
+
+.
+|-- node_modules
+|-- .babelrc
+|-- package.json
+|-- webpack.config.js
+|-- yarn.lock
