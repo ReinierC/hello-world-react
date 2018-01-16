@@ -93,3 +93,22 @@ _Now the file structure looks like this:_
 */
 console.log('message from index.js!!')
 ```
+16. Update index.html to:
+```html
+/*
+    ./client/index.html
+    basic html skeleton
+*/
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React App Setup</title>
+  </head>
+  <body>
+    <div id="root">
+
+    </div>
+  </body>
+</html>
+```
