@@ -192,7 +192,7 @@ plugins: [HtmlWebpackPluginConfig]
 25. `cd components`
 26. `touch App.jsx`
 27. `cd ../..`
-  * Now te file structure looks like this:
+  * Now the file structure looks like this:
 ```
   .
 |-- client
@@ -244,7 +244,7 @@ Make sure you're in the project root folder & open a terminal:
 **You now have a working React Environment set-up.**
 
 
-I used a [walkthrough](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
+I used this[walkthrough](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
 by Joy Warugu.
 
 All credits are hers for writing the first walkthrough I've found that actually works.
